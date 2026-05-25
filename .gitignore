@@ -3,3 +3,28 @@ dist/
 out/
 *.vsix
 .vscode-test/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Coverage and package manager caches
+coverage/
+.nyc_output/
+.npm/
+.pnpm-store/
